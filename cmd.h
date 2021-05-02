@@ -39,7 +39,7 @@
       cmd是16位，2字节，最多支持65536个指令
       len是16位，2字节，最多支持长度是65536字节
  */
-#define CMD_PLATFORM    1       /*0-上层linux系统
+#define CMD_PLATFORM    0       /*0-上层linux系统
                                   1-stm32系统
                                  */
 

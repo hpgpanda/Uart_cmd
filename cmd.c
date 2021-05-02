@@ -1,4 +1,4 @@
-#include <cmd.h>
+#include "cmd.h"
 
 static uint8_t send_buf[CMD_SEND_BUF_SIZE]; //发送缓存，包含了包头、长度和数据包
 static uint16_t send_buf_len;
